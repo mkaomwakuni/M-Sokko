@@ -9,17 +9,29 @@
         android:id="@+id/navigation_product"
         android:name="com.mkao.m_sokko.ui.home.HomeFragment"
         android:label="@string/title_products"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_product_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.mkao.m_sokko.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_checkout"
+            app:destination="@id/navigation_checkout" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_checkout"
         android:name="com.mkao.m_sokko.ui.notifications.NotificationsFragment"
         android:label="@string/title_checkout"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications" >
+        <action
+            android:id="@+id/action_navigation_checkout_to_navigation_product"
+            app:destination="@id/navigation_product" />
+    </fragment>
 </navigation>
