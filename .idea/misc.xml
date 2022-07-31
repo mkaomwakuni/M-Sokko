@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/drawable/ic_cart.xml" value="0.1" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/actionbarcustom.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_notifications.xml" value="0.18" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
