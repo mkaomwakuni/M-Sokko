@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/theme"
+        android:title="@string/DarkMode"/>
+    <item
+        android:id="@+id/abt"
+        android:title="@string/About"/>
+    <item android:id="@+id/cancel"
+        android:title="@string/cancel"/>
+</menu>
