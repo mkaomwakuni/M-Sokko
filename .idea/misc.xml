@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/drawable/ic_cart.xml" value="0.1" />
-        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/actionbarcustom.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.154" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/actionbarcustom.xml" value="0.17535545023696683" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/basketeditem.xml" value="0.22" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_checkout.xml" value="0.16" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_notifications.xml" value="0.18" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/fragment_products.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/layout/item.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/earl/AndroidStudioProjects/MSokko/app/src/main/res/menu/options_menu.xml" value="0.19583333333333333" />
       </map>
     </option>
   </component>

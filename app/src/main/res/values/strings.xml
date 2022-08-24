@@ -27,4 +27,6 @@
     <string name="DarkMode">Dark Mode</string>
     <string name="About">About</string>
     <string name="cancel">Exit</string>
+    <string name="Kenya">Kshs</string>
+ <string name="Tanzania">Tkshs</string>
 </resources>

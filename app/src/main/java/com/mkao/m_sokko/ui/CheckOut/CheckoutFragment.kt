@@ -1,4 +1,4 @@
-package com.mkao.m_sokko.ui.notifications
+package com.mkao.m_sokko.ui.CheckOut
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,12 +6,19 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
+import com.mkao.m_sokko.MainActivity
+import com.mkao.m_sokko.ProductItem
+import com.mkao.m_sokko.SokoViewModel
+import com.mkao.m_sokko.databinding.FragmentCheckoutBinding
 import com.mkao.m_sokko.databinding.FragmentNotificationsBinding
 
-class NotificationsFragment : Fragment() {
+class CheckoutFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
+    private var _binding: FragmentCheckoutBinding? = null
+    private val sokoViewModel:SokoViewModel by activityViewModels()
+    private lateinit var callingActivity: MainActivity
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +29,15 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
+        val checkoutViewModel =
+            ViewModelProvider(this).get(CheckoutViewModel::class.java)
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentCheckoutBinding.inflate(inflater, container, false)
+        callingActivity as  MainActivity
         val root: View = binding.root
 
         val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
+        checkoutViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
@@ -38,5 +46,9 @@ class NotificationsFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    fun revomeProduct(current: ProductItem) {
+
     }
 }

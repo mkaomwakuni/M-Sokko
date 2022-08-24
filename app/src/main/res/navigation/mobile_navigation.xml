@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/navigation_product"
-        android:name="com.mkao.m_sokko.ui.home.HomeFragment"
+        android:name="com.mkao.m_sokko.ui.Product.ProductFragment"
         android:label="@string/title_products"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_products" >
         <action
             android:id="@+id/action_navigation_product_to_navigation_dashboard"
             app:destination="@id/navigation_dashboard" />
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/navigation_checkout"
-        android:name="com.mkao.m_sokko.ui.notifications.NotificationsFragment"
+        android:name="com.mkao.m_sokko.ui.CheckOut.CheckoutFragment"
         android:label="@string/title_checkout"
         tools:layout="@layout/fragment_notifications" >
         <action
