@@ -11,8 +11,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.mkao.m_sokko.ui.CheckOut.CheckoutFragment
 
-class checkoutAdapter(private val activity: MainActivity,private  val fragment: CheckoutFragment ) : RecyclerView.Adapter<checkoutAdapter.ProductsViewHolder>() {
-    val product = mutableListOf<ProductItem>()
+class CheckoutAdapter(private val activity: MainActivity, private  val fragment: CheckoutFragment ) : RecyclerView.Adapter<CheckoutAdapter.ProductsViewHolder>() {
+    var product = mutableListOf<ProductItem>()
     var currency:Currency? = null
 
     inner class ProductsViewHolder(itemView: View) :RecyclerView.ViewHolder(itemView) {
@@ -41,7 +41,7 @@ class checkoutAdapter(private val activity: MainActivity,private  val fragment: 
 
         holder.iProductPrice.text = activity.resources.getString(R.string.product_price,currency?.symbol,String.format("%.2f",price))
         holder.iremoveFrombasket.setOnClickListener{
-            fragment.revomeProduct(current)
+            with(fragment) { removeProduct(current) }
         }
 
     }

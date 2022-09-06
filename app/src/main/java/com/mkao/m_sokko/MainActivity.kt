@@ -138,4 +138,8 @@ class MainActivity : AppCompatActivity() {
         sokoViewModel.currency.value = currency
         sokoViewModel.calculateOrderSum()
     }
+
+    fun intiatePay() {
+        TODO("Not yet implemented")
+    }
 }
