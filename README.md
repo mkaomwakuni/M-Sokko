@@ -15,7 +15,6 @@ The Inventory e-Store APK offers the following features:
 ## Prerequisites
 
 To run the Inventory e-Store APK, ensure that you have the following prerequisites installed on your development environment:
-
 - Android Studio (version XYZ or later)
 - Java Development Kit (JDK) version XYZ or later
 - Android SDK with API level XYZ or later
@@ -49,7 +48,6 @@ Feel free to explore the application and customize it to fit your specific e-com
 We welcome contributions to the Inventory e-Store APK project. If you encounter any issues or have suggestions for improvements, please submit them through GitHub's issue tracker. Additionally, if you'd like to contribute code, you can fork the repository, make your changes, and submit a pull request.
 
 ## License
-
 The Inventory e-Store APK is licensed under the [MIT License](LICENSE). You are free to modify and distribute the application in accordance with the terms of the license.
 
 
