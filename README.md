@@ -25,3 +25,31 @@ To run the Inventory e-Store APK, ensure that you have the following prerequisit
 To set up the project and run the application locally, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
+  
+2. Open the project in Android Studio.
+
+3. Build the project to download the necessary dependencies and libraries.
+
+4. Connect your Android device or start an emulator.
+
+5. Click the "Run" button in Android Studio to launch the application on the connected device or emulator.
+
+## Usage
+
+Once the application is running, you can use it to manage your e-commerce store's inventory. Here are some instructions to get you started:
+
+1. Sign up for a new account or log in with your existing credentials.
+2. Navigate through the different sections of the application to manage products, track inventory, and handle orders.
+3. Use the reporting feature to generate sales reports and monitor inventory levels.
+
+Feel free to explore the application and customize it to fit your specific e-commerce store needs!
+
+## Contributing
+
+We welcome contributions to the Inventory e-Store APK project. If you encounter any issues or have suggestions for improvements, please submit them through GitHub's issue tracker. Additionally, if you'd like to contribute code, you can fork the repository, make your changes, and submit a pull request.
+
+## License
+
+The Inventory e-Store APK is licensed under the [MIT License](LICENSE). You are free to modify and distribute the application in accordance with the terms of the license.
+
+
